@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id= inputform>
+        <div style= "border: 2px solid black; padding: 20px"> 
+            <label for="firstName">First Name</label>
+            <input type= "text" name= "firstName" required></input>
+            <label for="lastName">Last Name</label>
+            <input type= "text" name= "lastName" required></input>
+            <label for="age">age</label>
+            <input type= "number" name= "age" required></input>
+            
+        </div>
+        <div style= "border: 2px solid black; padding: 20px">
+            <label>Was this movie a good movie?</label>
+            <label>Yes:</label>
+            <input type= "radio" name= "review" value="Yes"></input>
+            <label>No:</label>
+            <input type="radio" name= "review" value="No"></input>
+        </div>
+
+        <div style= "border: 2px solid black; padding: 20px">
+            <label for= "recommend">What movies have you recommended to your friends and family?</label>
+            <label for= "recommend1">Futuristics Gumby</label>
+            <input type="checkbox" value= "" name= "recommend1">
+            <label for= "recommend2">Static Attack Lost Crusade</label>
+            <input type="checkbox" value= "" name= "recommend2">
+            <label for= "recommend3">Land of the Dinosuars</label>
+            <input type="checkbox" value= "" name= "recommend3">
+        </div>
+        
+        <div style= "border: 2px solid black; padding: 20px">
+           <label for= "gender">What is your gender?</label>
+           <select name= "gender">
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="do not specify">do not specify</option>
+            </select>
+        <div style= "width: 40px; margin: 0 auto; padding: 20px">
+            <button id= "enterButton">Submit</button>
+        </div>
+        </form>
+        <script src="index.js"></script>
+    </body>
+</html>
