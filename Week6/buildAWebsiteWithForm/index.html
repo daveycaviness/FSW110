@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Coffee Shop</title>
+</head>
+<body>
+
+   <header>
+        <div>
+            <h1>Moonbucks</h1>
+            <h2>Coffee Shop Menu</h2>
+        </div>
+    </header> 
+    
+    <main>
+        <h2 class="section-header"></h2>
+        <form action="">
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column"></span>
+            <span class="cart-price cart-header cart-column"></span>
+            <span class="cart-quantity cart-header cart-column"></span>
+        </div>
+        <div class="cart-items">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="https://images.unsplash.com/photo-1497515114629-f71d768fd07c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzN8fGNvZmZlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Black Cup of Coffee">
+                    <span class="cart-item-title">Coffee</span>
+                </div>
+                <span class="cart-price cart-column">$4.99</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" min="0" value="0">
+                </div>
+            </div>
+            <div class="cart-items">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="https://images.unsplash.com/photo-1499638673689-79a0b5115d87?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aWNlZCUyMHRlYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Cup of tea">
+                        <span class="cart-item-title">Tea</span>
+                    </div>
+                    <span class="cart-price cart-column">$4.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" min="0" value="0">
+                    </div>
+                </div>
+                <div class="cart-items">
+                    <div class="cart-row">
+                        <div class="cart-item cart-column">
+                            <img class="cart-item-image" src="https://images.unsplash.com/photo-1518562923427-19e694fbd8e9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Everything Bagel">
+                            <span class="cart-item-title">Bagel</span>
+                        </div>
+                        <span class="cart-price cart-column">$.99</span>
+                        <div class="cart-quantity cart-column">
+                            <input class="cart-quantity-input" type="number" min="0" value="0">
+                        </div>
+                    </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0.00</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </form>
+       </main>
+    <footer>
+            <p>5555 BresterCrook Way</p>
+            <p>Las Vegas, Nevada 12345</p>
+            <p>www.Moonbucks.com</p>
+        </footer>
+    <script src="index.js"></script>
+</body>
+</html>
