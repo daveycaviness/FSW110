@@ -1,0 +1,38 @@
+body{
+    background: url("images/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#gridContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 120px 1fr;
+}
+
+#flexHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline 2px solid tomato;
+    margin-top: 100px;
+}
+
+#myForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+#myList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#myList>li>h3{
+    color: tomato;
+}
